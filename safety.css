@@ -1,0 +1,88 @@
+    .bx-v img{
+        width: 40px;
+    }
+    .bx-v div{
+        width: 100%;
+        background: white;
+        padding-left: 5px;
+        padding: 7px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .bx-v button{
+        background: transparent;
+        border: none;
+        color: var(--main);
+        padding: 0px;
+        font-size: 20px;
+        margin-right: 6px;
+    }
+    .detail-voucher h6{
+        border-top: 3px dashed #f1f1f1;
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    .detail-voucher h5{
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .detail-voucher p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .fa-fire{
+        color: red;
+    }
+    ul li{
+        font-size: 14px;
+    }
+    .offcanvas-header{
+        background: var(--main);
+        padding: 10px !important;
+    }
+    .offcanvas-header h5{
+        color: white;
+        padding: 0;
+    }
+    .ribbon {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon {
+  --r: .4em; 
+  --c: var(--ribbon1);
+  position: absolute;
+  top: 20px;
+  left: calc(-1*var(--r));
+  line-height: 1.8; 
+  padding: 0 .5em calc(2*var(--r));
+  border-radius: var(--r) 0 0 var(--r);
+  background: 
+    radial-gradient(100% 50% at left,var(--c) 98%,#0000 101%)
+     100% 0/.5lh calc(100% - 2*var(--r)),
+    radial-gradient(100% 50% at right,#0005 98%,#0000 101%) 
+     0 100%/var(--r) calc(2*var(--r)),
+    conic-gradient(from 90deg at var(--r) calc(100% - 2*var(--r)),#0000 25%,var(--c) 0)
+     0 0/calc(101% - .5lh) 100%;
+  background-repeat: no-repeat;   
+}
+.ribbon2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon2 {
+  --f: .5em; 
+  --r: .8em;
+  position: absolute;
+  left: 20px;
+  top: calc(-1*var(--f));
+  padding: .2em;
+  background: var(--ribbon2);
+  border-left: var(--f) solid #0005;
+  border-bottom: var(--r) solid #0000;
+  clip-path: polygon(var(--f) 0,100% 0,100% calc(100% - var(--r)),calc(50% + var(--f)/2) 100%, var(--f) calc(100% - var(--r)),var(--f) var(--f),0 var(--f));
+}
